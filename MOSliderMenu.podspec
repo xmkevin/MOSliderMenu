@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
                    DESC
   s.homepage     = "https://github.com/xmkevin/MOSliderMenu"
   s.screenshots  = "https://github.com/xmkevin/MOSliderMenu/blob/master/Resources/screenshot.png"
-  s.license      = 'MIT (example)'
+  s.license      = 'MIT'
   s.author       = { "xmkevin" => "gaoyq@live.cn" }
   s.platform     = :ios, '7.0'
   s.source       = { :git => "https://github.com/xmkevin/MOSliderMenu.git", :tag => "v1.0.0" }
