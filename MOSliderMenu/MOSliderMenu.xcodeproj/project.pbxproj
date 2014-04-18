@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33078B5E1900D1B500FB1065 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33078B5D1900D1B500FB1065 /* Foundation.framework */; };
+		33078B601900D1B500FB1065 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33078B5F1900D1B500FB1065 /* CoreGraphics.framework */; };
+		33078B621900D1B500FB1065 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33078B611900D1B500FB1065 /* UIKit.framework */; };
+		33078B681900D1B500FB1065 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 33078B661900D1B500FB1065 /* InfoPlist.strings */; };
+		33078B6A1900D1B500FB1065 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33078B691900D1B500FB1065 /* main.m */; };
+		33078B6E1900D1B500FB1065 /* MOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33078B6D1900D1B500FB1065 /* MOAppDelegate.m */; };
+		33078B711900D1B500FB1065 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33078B6F1900D1B500FB1065 /* Main_iPhone.storyboard */; };
+		33078B741900D1B500FB1065 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33078B721900D1B500FB1065 /* Main_iPad.storyboard */; };
+		33078B771900D1B500FB1065 /* MOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33078B761900D1B500FB1065 /* MOViewController.m */; };
+		33078B791900D1B500FB1065 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33078B781900D1B500FB1065 /* Images.xcassets */; };
+		33078B801900D1B500FB1065 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33078B7F1900D1B500FB1065 /* XCTest.framework */; };
+		33078B811900D1B500FB1065 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33078B5D1900D1B500FB1065 /* Foundation.framework */; };
+		33078B821900D1B500FB1065 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33078B611900D1B500FB1065 /* UIKit.framework */; };
+		33078B8A1900D1B500FB1065 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 33078B881900D1B500FB1065 /* InfoPlist.strings */; };
+		33078B8C1900D1B500FB1065 /* MOSliderMenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33078B8B1900D1B500FB1065 /* MOSliderMenuTests.m */; };
+		33078BA01900D52A00FB1065 /* MOSliderMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 33078B9D1900D52A00FB1065 /* MOSliderMenu.m */; };
+		33078BA11900D52A00FB1065 /* MOSliderMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 33078B9F1900D52A00FB1065 /* MOSliderMenuItem.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33078B831900D1B500FB1065 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33078B521900D1B500FB1065 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33078B591900D1B500FB1065;
+			remoteInfo = MOSliderMenu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		33078B5A1900D1B500FB1065 /* MOSliderMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MOSliderMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33078B5D1900D1B500FB1065 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		33078B5F1900D1B500FB1065 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		33078B611900D1B500FB1065 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		33078B651900D1B500FB1065 /* MOSliderMenu-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MOSliderMenu-Info.plist"; sourceTree = "<group>"; };
+		33078B671900D1B500FB1065 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		33078B691900D1B500FB1065 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		33078B6B1900D1B500FB1065 /* MOSliderMenu-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MOSliderMenu-Prefix.pch"; sourceTree = "<group>"; };
+		33078B6C1900D1B500FB1065 /* MOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MOAppDelegate.h; sourceTree = "<group>"; };
+		33078B6D1900D1B500FB1065 /* MOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MOAppDelegate.m; sourceTree = "<group>"; };
+		33078B701900D1B500FB1065 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		33078B731900D1B500FB1065 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		33078B751900D1B500FB1065 /* MOViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MOViewController.h; sourceTree = "<group>"; };
+		33078B761900D1B500FB1065 /* MOViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MOViewController.m; sourceTree = "<group>"; };
+		33078B781900D1B500FB1065 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		33078B7E1900D1B500FB1065 /* MOSliderMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MOSliderMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33078B7F1900D1B500FB1065 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		33078B871900D1B500FB1065 /* MOSliderMenuTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MOSliderMenuTests-Info.plist"; sourceTree = "<group>"; };
+		33078B891900D1B500FB1065 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		33078B8B1900D1B500FB1065 /* MOSliderMenuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MOSliderMenuTests.m; sourceTree = "<group>"; };
+		33078B9C1900D52A00FB1065 /* MOSliderMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MOSliderMenu.h; path = Classes/MOSliderMenu.h; sourceTree = "<group>"; };
+		33078B9D1900D52A00FB1065 /* MOSliderMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MOSliderMenu.m; path = Classes/MOSliderMenu.m; sourceTree = "<group>"; };
+		33078B9E1900D52A00FB1065 /* MOSliderMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MOSliderMenuItem.h; path = Classes/MOSliderMenuItem.h; sourceTree = "<group>"; };
+		33078B9F1900D52A00FB1065 /* MOSliderMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MOSliderMenuItem.m; path = Classes/MOSliderMenuItem.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33078B571900D1B500FB1065 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33078B601900D1B500FB1065 /* CoreGraphics.framework in Frameworks */,
+				33078B621900D1B500FB1065 /* UIKit.framework in Frameworks */,
+				33078B5E1900D1B500FB1065 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33078B7B1900D1B500FB1065 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33078B801900D1B500FB1065 /* XCTest.framework in Frameworks */,
+				33078B821900D1B500FB1065 /* UIKit.framework in Frameworks */,
+				33078B811900D1B500FB1065 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33078B511900D1B500FB1065 = {
+			isa = PBXGroup;
+			children = (
+				33078B951900D4B800FB1065 /* Classes */,
+				33078B631900D1B500FB1065 /* Example */,
+				33078B851900D1B500FB1065 /* MOSliderMenuTests */,
+				33078B5C1900D1B500FB1065 /* Frameworks */,
+				33078B5B1900D1B500FB1065 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33078B5B1900D1B500FB1065 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33078B5A1900D1B500FB1065 /* MOSliderMenu.app */,
+				33078B7E1900D1B500FB1065 /* MOSliderMenuTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33078B5C1900D1B500FB1065 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33078B5D1900D1B500FB1065 /* Foundation.framework */,
+				33078B5F1900D1B500FB1065 /* CoreGraphics.framework */,
+				33078B611900D1B500FB1065 /* UIKit.framework */,
+				33078B7F1900D1B500FB1065 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		33078B631900D1B500FB1065 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				33078B6C1900D1B500FB1065 /* MOAppDelegate.h */,
+				33078B6D1900D1B500FB1065 /* MOAppDelegate.m */,
+				33078B6F1900D1B500FB1065 /* Main_iPhone.storyboard */,
+				33078B721900D1B500FB1065 /* Main_iPad.storyboard */,
+				33078B751900D1B500FB1065 /* MOViewController.h */,
+				33078B761900D1B500FB1065 /* MOViewController.m */,
+				33078B781900D1B500FB1065 /* Images.xcassets */,
+				33078B641900D1B500FB1065 /* Supporting Files */,
+			);
+			name = Example;
+			path = MOSliderMenu;
+			sourceTree = "<group>";
+		};
+		33078B641900D1B500FB1065 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				33078B651900D1B500FB1065 /* MOSliderMenu-Info.plist */,
+				33078B661900D1B500FB1065 /* InfoPlist.strings */,
+				33078B691900D1B500FB1065 /* main.m */,
+				33078B6B1900D1B500FB1065 /* MOSliderMenu-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		33078B851900D1B500FB1065 /* MOSliderMenuTests */ = {
+			isa = PBXGroup;
+			children = (
+				33078B8B1900D1B500FB1065 /* MOSliderMenuTests.m */,
+				33078B861900D1B500FB1065 /* Supporting Files */,
+			);
+			path = MOSliderMenuTests;
+			sourceTree = "<group>";
+		};
+		33078B861900D1B500FB1065 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				33078B871900D1B500FB1065 /* MOSliderMenuTests-Info.plist */,
+				33078B881900D1B500FB1065 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		33078B951900D4B800FB1065 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				33078B9C1900D52A00FB1065 /* MOSliderMenu.h */,
+				33078B9D1900D52A00FB1065 /* MOSliderMenu.m */,
+				33078B9E1900D52A00FB1065 /* MOSliderMenuItem.h */,
+				33078B9F1900D52A00FB1065 /* MOSliderMenuItem.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33078B591900D1B500FB1065 /* MOSliderMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33078B8F1900D1B500FB1065 /* Build configuration list for PBXNativeTarget "MOSliderMenu" */;
+			buildPhases = (
+				33078B561900D1B500FB1065 /* Sources */,
+				33078B571900D1B500FB1065 /* Frameworks */,
+				33078B581900D1B500FB1065 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MOSliderMenu;
+			productName = MOSliderMenu;
+			productReference = 33078B5A1900D1B500FB1065 /* MOSliderMenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33078B7D1900D1B500FB1065 /* MOSliderMenuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33078B921900D1B500FB1065 /* Build configuration list for PBXNativeTarget "MOSliderMenuTests" */;
+			buildPhases = (
+				33078B7A1900D1B500FB1065 /* Sources */,
+				33078B7B1900D1B500FB1065 /* Frameworks */,
+				33078B7C1900D1B500FB1065 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33078B841900D1B500FB1065 /* PBXTargetDependency */,
+			);
+			name = MOSliderMenuTests;
+			productName = MOSliderMenuTests;
+			productReference = 33078B7E1900D1B500FB1065 /* MOSliderMenuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33078B521900D1B500FB1065 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MO;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Motic China Group Co., Ltd.";
+				TargetAttributes = {
+					33078B7D1900D1B500FB1065 = {
+						TestTargetID = 33078B591900D1B500FB1065;
+					};
+				};
+			};
+			buildConfigurationList = 33078B551900D1B500FB1065 /* Build configuration list for PBXProject "MOSliderMenu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33078B511900D1B500FB1065;
+			productRefGroup = 33078B5B1900D1B500FB1065 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33078B591900D1B500FB1065 /* MOSliderMenu */,
+				33078B7D1900D1B500FB1065 /* MOSliderMenuTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33078B581900D1B500FB1065 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33078B741900D1B500FB1065 /* Main_iPad.storyboard in Resources */,
+				33078B791900D1B500FB1065 /* Images.xcassets in Resources */,
+				33078B711900D1B500FB1065 /* Main_iPhone.storyboard in Resources */,
+				33078B681900D1B500FB1065 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33078B7C1900D1B500FB1065 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33078B8A1900D1B500FB1065 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33078B561900D1B500FB1065 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33078B6E1900D1B500FB1065 /* MOAppDelegate.m in Sources */,
+				33078BA11900D52A00FB1065 /* MOSliderMenuItem.m in Sources */,
+				33078B771900D1B500FB1065 /* MOViewController.m in Sources */,
+				33078B6A1900D1B500FB1065 /* main.m in Sources */,
+				33078BA01900D52A00FB1065 /* MOSliderMenu.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33078B7A1900D1B500FB1065 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33078B8C1900D1B500FB1065 /* MOSliderMenuTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33078B841900D1B500FB1065 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33078B591900D1B500FB1065 /* MOSliderMenu */;
+			targetProxy = 33078B831900D1B500FB1065 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		33078B661900D1B500FB1065 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33078B671900D1B500FB1065 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		33078B6F1900D1B500FB1065 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33078B701900D1B500FB1065 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		33078B721900D1B500FB1065 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33078B731900D1B500FB1065 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		33078B881900D1B500FB1065 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33078B891900D1B500FB1065 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33078B8D1900D1B500FB1065 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33078B8E1900D1B500FB1065 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33078B901900D1B500FB1065 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MOSliderMenu/MOSliderMenu-Prefix.pch";
+				INFOPLIST_FILE = "MOSliderMenu/MOSliderMenu-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		33078B911900D1B500FB1065 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MOSliderMenu/MOSliderMenu-Prefix.pch";
+				INFOPLIST_FILE = "MOSliderMenu/MOSliderMenu-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		33078B931900D1B500FB1065 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MOSliderMenu.app/MOSliderMenu";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MOSliderMenu/MOSliderMenu-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MOSliderMenuTests/MOSliderMenuTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		33078B941900D1B500FB1065 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MOSliderMenu.app/MOSliderMenu";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MOSliderMenu/MOSliderMenu-Prefix.pch";
+				INFOPLIST_FILE = "MOSliderMenuTests/MOSliderMenuTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33078B551900D1B500FB1065 /* Build configuration list for PBXProject "MOSliderMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33078B8D1900D1B500FB1065 /* Debug */,
+				33078B8E1900D1B500FB1065 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33078B8F1900D1B500FB1065 /* Build configuration list for PBXNativeTarget "MOSliderMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33078B901900D1B500FB1065 /* Debug */,
+				33078B911900D1B500FB1065 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		33078B921900D1B500FB1065 /* Build configuration list for PBXNativeTarget "MOSliderMenuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33078B931900D1B500FB1065 /* Debug */,
+				33078B941900D1B500FB1065 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33078B521900D1B500FB1065 /* Project object */;
+}
