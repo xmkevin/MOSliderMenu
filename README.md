@@ -14,9 +14,9 @@ NSArray *items = @[[[MOSliderMenuItem alloc] initWithText:@"ONE"],
                        [[MOSliderMenuItem alloc] initWithText:@"FOUR"],
                        [[MOSliderMenuItem alloc] initWithText:@"FIVE"]];
     
-    MOSliderMenu *menu = [[MOSliderMenu alloc] initWithFrame:self.view.frame
-                                                   menuItems:items
-                                                 andDelegate:self];
+MOSliderMenu *menu = [[MOSliderMenu alloc] initWithFrame:self.view.frame
+                                               menuItems:items
+                                             andDelegate:self];
 ```
 
 Add the menu to the view:
@@ -40,5 +40,4 @@ Then you can get events from the menu:
 }
 ```
 
-/*Screenshot*/
-(https://github.com/xmkevin/MOSliderMenu/blob/master/Resources/screenshot.png)
+![Screenshot](/Resources/screenshot.png)
