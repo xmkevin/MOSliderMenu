@@ -24,6 +24,7 @@
 		33078B8C1900D1B500FB1065 /* MOSliderMenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33078B8B1900D1B500FB1065 /* MOSliderMenuTests.m */; };
 		33078BA01900D52A00FB1065 /* MOSliderMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 33078B9D1900D52A00FB1065 /* MOSliderMenu.m */; };
 		33078BA11900D52A00FB1065 /* MOSliderMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 33078B9F1900D52A00FB1065 /* MOSliderMenuItem.m */; };
+		33078BA31901041500FB1065 /* beauty.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 33078BA21901041500FB1065 /* beauty.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		33078B9D1900D52A00FB1065 /* MOSliderMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MOSliderMenu.m; path = Classes/MOSliderMenu.m; sourceTree = "<group>"; };
 		33078B9E1900D52A00FB1065 /* MOSliderMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MOSliderMenuItem.h; path = Classes/MOSliderMenuItem.h; sourceTree = "<group>"; };
 		33078B9F1900D52A00FB1065 /* MOSliderMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MOSliderMenuItem.m; path = Classes/MOSliderMenuItem.m; sourceTree = "<group>"; };
+		33078BA21901041500FB1065 /* beauty.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beauty.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				33078B6C1900D1B500FB1065 /* MOAppDelegate.h */,
+				33078BA21901041500FB1065 /* beauty.jpg */,
 				33078B6D1900D1B500FB1065 /* MOAppDelegate.m */,
 				33078B6F1900D1B500FB1065 /* Main_iPhone.storyboard */,
 				33078B721900D1B500FB1065 /* Main_iPad.storyboard */,
@@ -251,6 +254,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33078BA31901041500FB1065 /* beauty.jpg in Resources */,
 				33078B741900D1B500FB1065 /* Main_iPad.storyboard in Resources */,
 				33078B791900D1B500FB1065 /* Images.xcassets in Resources */,
 				33078B711900D1B500FB1065 /* Main_iPhone.storyboard in Resources */,
