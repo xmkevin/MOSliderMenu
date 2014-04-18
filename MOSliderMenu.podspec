@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.author       = { "xmkevin" => "gaoyq@live.cn" }
   s.platform     = :ios, '7.0'
   s.source       = { :git => "https://github.com/xmkevin/MOSliderMenu.git", :tag => "v1.0.0" }
-  s.source_files  = '/Classes/*.{h,m}'
+  s.source_files  = 'MOSliderMenu/Classes/*.{h,m}'
   s.requires_arc = true
 
 end
